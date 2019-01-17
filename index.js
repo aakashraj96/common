@@ -1,3 +1,3 @@
 exports.message = function() {
-    return 'hello'
+    return 'Version 1.1'
 }
