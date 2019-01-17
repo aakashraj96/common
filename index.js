@@ -1,3 +1,7 @@
+exports.init = function(platform) {
+    process.env.PLATFORM = platform;
+}
+
 exports.message = function() {
-    return 'Version 1.2'
+    return `Platform is ${process.env.PLATFORM} and version is Version 1.1`
 }
